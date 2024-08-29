@@ -20,5 +20,6 @@ resource "aws_instance" "app_server" {
   tags = {
     Name = "Handson_Ebata"
     TED = "20240829_Handson"
+    Hello = "World"
   }
 }
