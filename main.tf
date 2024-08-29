@@ -22,6 +22,5 @@ resource "aws_instance" "app_server" {
     TED = "20240829_Handson"
     Hello = "World"
     Environment = "MyEnvironment"
-    Project = "MyProject"
   }
 }
